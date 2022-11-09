@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicio 12 do curso de Tecnologias Web</title>
+    </head>
+    <body>
+        <h1>Pizza Form</h1>
+        <div>
+            <form>
+                <fieldset>
+                  <legend>Personal Info</legend>
+                First Name <input type="text" name="first name">
+               <br>
+                Last Name <input type="text" name="last name">
+                <br>
+                    <!-- permitindo apenas numeros -->
+                Phone<input type="text" 
+                onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+            <fieldset>
+                <legend>Pizza</legend>
+                Size:
+                <br>
+                <input type="radio" name="siza" value="small"> Small
+                <br>
+                <input type="radio" name="size" value="medium"> Medium
+                <br>
+                <input type="radio" name="size" value="large"> Large  
+                <br>
+                <br>
+                Toppings (check all that apply):
+            <br>
+                    <input type="checkbox" name="topping" value="extra cheese"> Extra Cheese
+                    <input type="checkbox" name="topping" value="pepperoni"> Pepperoni
+                    <input type="checkbox" name="topping" value="sausage" disabled> Sausage 
+        <br>
+                <input type="checkbox" name="topping" value="mushroom"> Mushrooms
+                <input type="checkbox" name="topping" value="black olives"> Black Olives
+                <input type="checkbox" name="topping" value="green pepper"> Green Pepper
+            <br>
+                <input type="checkbox" name="topping" value="tomatoes"> Tomatoes
+                <input type="checkbox" name="topping" value="onions"> Onions
+                <input type="checkbox" name="anchovies" value="anchovies"> Anchovies 
+            </fieldset>
+             </form>
+        </div>
+        <br>
+            <button>Enter my information</button>
+    </body>
+</html>
