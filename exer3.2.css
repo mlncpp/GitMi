@@ -1,0 +1,12 @@
+.normal{
+    font-weight: normal;
+}
+.light{
+    font-weight: lighter;
+}
+.thick{
+    font-weight: bolder;
+}
+.ticker{
+    font-weight: 900;
+}
